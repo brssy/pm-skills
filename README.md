@@ -2,8 +2,6 @@
 
 A library of [Claude Code](https://claude.ai/code) skills for product managers — structured workflows for the research, writing, and review work PMs do every day.
 
-Built by the product team at [Code for America](https://codeforamerica.org). Free to use, adapt, and share — [CC0 licensed](./LICENSE).
-
 ## What's a skill?
 
 Skills are reusable prompts that extend Claude Code with structured, multi-step behaviors. You invoke them with a slash command (e.g. `/opportunity-brief`) and Claude follows a defined workflow: asking clarifying questions, doing research, and producing a specific output.
@@ -51,7 +49,7 @@ description: Describe when Claude should trigger this skill. Be specific about t
 
 ## Contributing
 
-PRs welcome. If you work in civic tech or public interest product and have a skill worth sharing, open an issue or submit a pull request.
+Free to use, adapt, and share — [CC0 licensed](./LICENSE). PRs welcome. If you work in civic tech or public interest product and have a skill worth sharing, open an issue or submit a pull request.
 
 ## License
 
