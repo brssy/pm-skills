@@ -26,6 +26,9 @@ That's it. Skills are live immediately.
 | Skill | Trigger | What it does |
 |---|---|---|
 | `opportunity-brief` | `/opportunity-brief` | Turns rough notes into a structured opportunity brief with research |
+| `prd-writer` | `/prd-writer` | Turns a brief or notes into a full PRD using the team template |
+| `prd-reviewer` | `/prd-reviewer` | Critiques a PRD for gaps, missing metrics, and ambiguities |
+| `roadmap` | `/roadmap` | Organizes initiatives into a structured Now/Next/Later roadmap |
 
 ## Adding a skill
 
