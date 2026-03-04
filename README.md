@@ -1,43 +1,46 @@
 # PM Claude Skills
 
-Shared Claude Code skills for the product team.
+A library of [Claude Code](https://claude.ai/code) skills for product managers — structured workflows for the research, writing, and review work PMs do every day.
 
-## Setup (one-time)
+Built by the product team at [Code for America](https://codeforamerica.org). Free to use, adapt, and share — [CC0 licensed](./LICENSE).
 
-```bash
-git clone git@github.com:yourorg/pm-claude-skills.git ~/work/pm-claude-skills
-cd ~/work/pm-claude-skills
-./setup.sh
-```
+## What's a skill?
 
-This symlinks the repo into `~/.claude/skills/pm-skills/`. No Claude restart needed.
-
-## Getting updates
-
-```bash
-cd ~/work/pm-claude-skills
-git pull
-```
-
-That's it. Skills are live immediately.
+Skills are reusable prompts that extend Claude Code with structured, multi-step behaviors. You invoke them with a slash command (e.g. `/opportunity-brief`) and Claude follows a defined workflow: asking clarifying questions, doing research, and producing a specific output.
 
 ## Available Skills
 
 | Skill | Trigger | What it does |
 |---|---|---|
-| `opportunity-brief` | `/opportunity-brief` | Turns rough notes into a structured opportunity brief with research |
-| `prd-writer` | `/prd-writer` | Turns a brief or notes into a full PRD using the team template |
+| `opportunity-brief` | `/opportunity-brief` | Turns rough notes into a structured opportunity brief with web research |
+| `prd-writer` | `/prd-writer` | Turns a brief or notes into a full PRD |
 | `prd-reviewer` | `/prd-reviewer` | Critiques a PRD for gaps, missing metrics, and ambiguities |
 | `roadmap` | `/roadmap` | Organizes initiatives into a structured Now/Next/Later roadmap |
+
+## Setup
+
+```bash
+git clone https://github.com/brssy/pm-skills.git ~/pm-skills
+cd ~/pm-skills && ./setup.sh
+```
+
+This symlinks the repo into `~/.claude/skills/pm-skills/`. Skills are available immediately — no restart needed.
+
+## Getting updates
+
+```bash
+cd ~/pm-skills
+git pull
+```
 
 ## Adding a skill
 
 1. Create a folder: `your-skill-name/`
-2. Add `SKILL.md` with frontmatter (`name`, `description`) and instructions
-3. Optionally add `templates/` for output formats
+2. Add `SKILL.md` with frontmatter and instructions (see existing skills for examples)
+3. Optionally add a `templates/` folder for output formats
 4. Open a PR
 
-### SKILL.md frontmatter format
+### SKILL.md frontmatter
 
 ```yaml
 ---
@@ -46,14 +49,10 @@ description: Describe when Claude should trigger this skill. Be specific about t
 ---
 ```
 
-## Repo layout
+## Contributing
 
-```
-pm-claude-skills/
-├── opportunity-brief/
-│   ├── SKILL.md
-│   └── templates/
-│       └── brief-template.md
-├── setup.sh
-└── README.md
-```
+PRs welcome. If you work in civic tech or public interest product and have a skill worth sharing, open an issue or submit a pull request.
+
+## License
+
+[CC0 1.0 Universal](./LICENSE) — public domain, no restrictions.
