@@ -31,7 +31,7 @@ Wait for answers before writing.
 
 ## Phase 3: Write the PRD
 
-Read the template at `~/.claude/skills/prd-writer/templates/prd-template.md` using the Read tool.
+Read the template at `~/.claude/skills/pm-skills/prd-writer/templates/prd-template.md` using the Read tool.
 
 Fill in every section using the user's input and their answers to clarifying questions. Follow these guidelines:
 

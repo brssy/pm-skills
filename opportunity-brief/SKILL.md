@@ -30,9 +30,11 @@ Before researching or writing, ask **3–5 targeted questions** to sharpen the b
 
 Wait for the user's answers before proceeding to Phase 3.
 
-## Phase 3: Research
+## Phase 3: Research (When Needed)
 
-Use the WebSearch tool to gather external context. Run 2–4 targeted searches based on the opportunity. Focus on:
+If the user wants external context, market sizing, competitor analysis, or evidence to support the brief, use the WebSearch tool to gather it. If the user only wants their internal notes structured, skip research and move directly to Phase 4.
+
+When you do research, run 2–4 targeted searches based on the opportunity. Focus on:
 
 1. **Market context** — size, growth trends, relevant reports or data
 2. **Competitive landscape** — who else is solving this, how, at what price point
@@ -43,12 +45,12 @@ For each search, extract the 2–3 most relevant facts with their sources (URL +
 
 ## Phase 4: Compile and Write
 
-Read the template at `~/.claude/skills/opportunity-brief/templates/brief-template.md` using the Read tool.
+Read the template at `~/.claude/skills/pm-skills/opportunity-brief/templates/brief-template.md` using the Read tool.
 
 Fill in every section of the template using:
 - The user's original notes (Phase 1)
 - Their answers to clarifying questions (Phase 2)
-- Your research findings (Phase 3)
+- Your research findings from Phase 3, if research was performed
 
 **Writing guidelines:**
 - Be crisp and specific. No filler.
