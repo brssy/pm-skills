@@ -31,7 +31,7 @@ Wait for answers before writing.
 
 ## Phase 3: Structure the Roadmap
 
-Read the template at `~/.claude/skills/roadmap/templates/roadmap-template.md` using the Read tool.
+Read the template at `~/.claude/skills/pm-skills/roadmap/templates/roadmap-template.md` using the Read tool.
 
 For each theme, populate:
 
