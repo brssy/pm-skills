@@ -51,7 +51,7 @@ description: Describe when Claude should trigger this skill. Be specific about t
 
 ## Contributing
 
-Free to use, adapt, and share — [CC0 licensed](./LICENSE). PRs welcome. If you work in civic tech or public interest product and have a skill worth sharing, open an issue or submit a pull request.
+Free to use, adapt, and share — [CC0 licensed](./LICENSE). PRs welcome. If you have a skill worth sharing, open an issue or submit a pull request.
 
 ## License
 
