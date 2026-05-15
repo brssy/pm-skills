@@ -11,6 +11,7 @@ Skills are reusable prompts that extend Claude Code with structured, multi-step 
 | Skill | Trigger | What it does |
 |---|---|---|
 | `prfaq-writer` | `/prfaq-writer` | Writes a PRFAQ using Amazon's Working Backwards framework — press release + external and internal FAQs |
+| `draft-ncts` | `/draft-ncts` | Drafts a CfA-standard NCT (Narrative, Commitments, Tasks) for a project team's trimester goals |
 | `sync-granola` | `/sync-granola` | Pulls today's meeting action items from Granola and merges them into your work log — requires Granola MCP server |
 | `friday-closeout` | `/friday-closeout` | End-of-week ritual: sweeps meetings, reviews the week, drafts next week's priorities, and writes a weekly summary — requires Granola MCP server |
 | `write-ticket-linear` | `/write-ticket-linear` | Writes a product ticket with a user story and acceptance criteria, then creates it in Linear — requires Linear MCP server |
