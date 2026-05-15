@@ -4,16 +4,12 @@ A library of [Claude Code](https://claude.ai/code) skills for product managers �
 
 ## What's a skill?
 
-Skills are reusable prompts that extend Claude Code with structured, multi-step behaviors. You invoke them with a slash command (e.g. `/opportunity-brief`) and Claude follows a defined workflow: asking clarifying questions, doing research, and producing a specific output.
+Skills are reusable prompts that extend Claude Code with structured, multi-step behaviors. You invoke them with a slash command (e.g. `/prfaq-writer`) and Claude follows a defined workflow: asking clarifying questions, doing research, and producing a specific output.
 
 ## Available Skills
 
 | Skill | Trigger | What it does |
 |---|---|---|
-| `opportunity-brief` | `/opportunity-brief` | Turns rough notes into a structured opportunity brief with web research |
-| `prd-writer` | `/prd-writer` | Turns a brief or notes into a full PRD |
-| `prd-reviewer` | `/prd-reviewer` | Critiques a PRD for gaps, missing metrics, and ambiguities |
-| `roadmap` | `/roadmap` | Organizes initiatives into a structured Now/Next/Later roadmap |
 | `prfaq-writer` | `/prfaq-writer` | Writes a PRFAQ using Amazon's Working Backwards framework — press release + external and internal FAQs |
 | `sync-granola` | `/sync-granola` | Pulls today's meeting action items from Granola and merges them into your work log — requires Granola MCP server |
 | `friday-closeout` | `/friday-closeout` | End-of-week ritual: sweeps meetings, reviews the week, drafts next week's priorities, and writes a weekly summary — requires Granola MCP server |
